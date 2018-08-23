@@ -2,11 +2,6 @@
 Vue.js &amp; firebase fundamentals
 
 
-In the following sections:
-
-Data-Binding
-Events
-
 Please install the "Live Server" extension in VS Code.
 
 To view the html files, right click and select "Open with Live Server".
