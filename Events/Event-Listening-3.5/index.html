@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Fundamentals</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+</head>
+<body>
+
+    <h1>Vue Fundamentals course</h1>
+
+    <div id="app">
+        <h2> {{ title }} </h2>
+        <p>My Name is {{ name }}</p>
+        <input type="text" v-model="name">
+
+
+        <marquee direction="down" behavior="alternate" height="750">
+
+                <marquee behavior="alternate" scrolldelay="20" scrollamount="3" truespeed><font size="3"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="50" scrollamount="1" truespeed><font size="5"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="70" scrollamount="9" truespeed><font size="7"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="20" scrollamount="7" truespeed><font size="9"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="90" scrollamount="5" truespeed><font size="3"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="80" scrollamount="3" truespeed><font size="5"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="15" scrollamount="1" truespeed><font size="7"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="55" scrollamount="2" truespeed><font size="9"> {{ name }} </font></marquee>
+                <marquee behavior="alternate" scrolldelay="17" scrollamount="7" truespeed><font size="7"> {{ name }} </font></marquee>
+                
+        </marquee>
+
+    </div>
+<script src="app.js"></script>    
+</body>
+</html>
