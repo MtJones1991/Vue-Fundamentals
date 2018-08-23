@@ -1,6 +1,7 @@
 # Vue-Fundamentals
 Vue.js &amp; firebase fundamentals
 
+
 Please install the "Live Server" extension in VS Code.
 
 To view the html files, right click and select "Open with Live Server".
